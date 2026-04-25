@@ -8,7 +8,7 @@
 import SwiftUI
 
 @main
-struct FavouriteThingsApp: App {
+struct FavouriteBandsApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
