@@ -1,5 +1,5 @@
 //
-//  FavouriteThingsApp.swift
+//  FavouriteBandsApp.swift
 //  FavouriteThings
 //
 //  Created by ☆ on 25/04/2026.
@@ -11,7 +11,7 @@ import SwiftUI
 struct FavouriteBandsApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            BandsListView()
         }
     }
 }

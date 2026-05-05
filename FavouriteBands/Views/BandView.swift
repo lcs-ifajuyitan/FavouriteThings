@@ -9,20 +9,20 @@ import SwiftUI
  
 struct BandView: View {
     
-    let providedBand: Bands
+    let providedBand: Band
     
     var body: some View {
         
         HStack {
-            Image()
+            Image(providedBand.image)
                 .resizable()
                 .scaledToFill()
                 .frame(width: 50, height: 50, alignment: .leading)
                 .clipped()
             VStack(alignment: .leading) {
-                Text(providedBands.name)
+                Text(providedBand.name)
                     .font(.largeTitle)
-                Text(providedBands.description)
+                Text(providedBand.description)
             }
         }
        
