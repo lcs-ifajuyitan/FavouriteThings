@@ -20,7 +20,7 @@ let theNeighbourhood = Band(name: "The Neighbourhood", description: "an alternat
  
 let oasis = Band(name: "Oasis", description: "a 90s/00s rock band making classic music to be the soundtrack to your life.", image: "oasispic")
  
-let stereophonics = Band(name: "Stereophonics", description: "a welsh rock band making headbangers, especially their album 'performance and cocktails'.", image: "oasispic")
+let stereophonics = Band(name: "Stereophonics", description: "a welsh rock band making headbangers, especially their album 'performance and cocktails'.", image: "stereophonicspic")
  
 let bonJovi = Band(name: "Bon Jovi", description: "an 80s rock band loved by any rock enthusiast, absolute classic tunes.", image: "bonjovipic")
  
